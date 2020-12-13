@@ -1,0 +1,25 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+
+/* Stop purging. */
+
+html,
+body {
+  @apply bg-gray-50;
+}
+
+/* Write your own custom component styles here */
+.mn-container {
+  @apply flex flex-col mx-auto px-4 max-w-7xl sm:px-6 lg:px-8;
+}
+
+/* Start purging... */
+@tailwind utilities;
+
+/* Stop purging. */
+
+/* Your own custom utilities */
